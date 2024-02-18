@@ -1,0 +1,67 @@
+/* card.module.css */
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.creator_post {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.creator_image {
+  border-radius: 50%;
+}
+
+.creator_user {
+  margin-left: 10px;
+}
+
+.creator_user h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #333333;
+}
+
+.creator_user p {
+  margin: 0;
+  font-size: 14px;
+  color: #666666;
+}
+
+.prompt_content {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.tags {
+  font-size: 14px;
+  color: #666666;
+  cursor: pointer;
+}
+
+.tags:hover {
+  color: #000000;
+}
+
+.acctions_card {
+  display: flex;
+  gap: 10px;
+}
+
+.edit_card,
+.delete_card {
+  cursor: pointer;
+  font-size: 14px;
+  color: #666666;
+}
+
+.edit_card:hover,
+.delete_card:hover {
+  color: #ff4500;
+}

@@ -1,0 +1,58 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #ffffff; /* Adjust as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.homepro {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333333; /* Adjust text color */
+  font-size: 1.2rem; /* Adjust font size */
+}
+
+.homepro p {
+  margin-left: 0.5rem; /* Adjust spacing between logo and text */
+}
+
+.createpost {
+  display: flex;
+  align-items: center;
+}
+
+.createpost > * {
+  margin-left: 1rem; /* Adjust spacing between elements */
+}
+
+.signOutBu {
+  background-color: #ff6347; /* Adjust sign out button color */
+  color: #ffffff; /* Adjust text color */
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem; /* Adjust font size */
+}
+
+.sign {
+  background-color: #007bff; /* Adjust sign in button color */
+  color: #ffffff; /* Adjust text color */
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem; /* Adjust font size */
+}
+
+.sign:hover,
+.signOutBu:hover {
+  filter: brightness(90%); /* Add a hover effect */
+}
+
+.profile {
+  text-decoration: none;
+}

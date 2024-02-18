@@ -1,0 +1,76 @@
+.container_form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header_form {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.descruption_form {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.form_create_post {
+    display: flex;
+    flex-direction: column;
+}
+
+.label_form {
+    margin-bottom: 15px;
+}
+
+.span_header {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.text_area_form,
+.input_tag {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit_but {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.submit_but:hover {
+    background-color: #0056b3;
+}
+
+.cancel_but {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    
+}
+
+.cancel_but:hover {
+    background-color: #b3b3b3;
+}
